@@ -65,7 +65,7 @@ with open(csvpath, newline = '') as csvfile:
             
             revenue_changes.append(int(row[1]))           
             
-        revenue_avg = sum(revenue_changes) / len(revenue_changes)
+        revenue_avg = sum(revenue_changes) / len(total_months)
            
 # Print Total Months            
 print("Total Months: " + str(total_months))
@@ -74,7 +74,7 @@ print("Total Months: " + str(total_months))
 print("Total Revenue: " + "$" + str(total_revenue))
 
 # Print Average Change
-print("Average Change: " + "$" + str(round(sum(revenue_changes) / len(revenue_changes),2)))
+print("Average Change: " + "$" + str(round(sum(revenue_changes) / len(total_months),2)))
 
 # Print Greatest increase:
 print("Greatest Increase: " + str(greatest_increase[0]) + " ($" +  str(greatest_increase[1]) + ")") 
