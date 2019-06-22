@@ -28,7 +28,7 @@ output = "budget_analysis.txt"
 
 # Open csv file
 
-csvpath = os.path.join('Budget_Data.csv')
+csvpath = os.path.join('budget_data.csv')
 with open(csvpath, newline = '') as csvfile:
 
 # Specify delimiters
@@ -63,10 +63,12 @@ with open(csvpath, newline = '') as csvfile:
                 greatest_decrease[0] = row[0]
                 greatest_decrease[1] = revenue_change
             
-            revenue_changes.append(int(row[1]))           
+            revenue_changes.append(revenue_change)
+            # print(revenue_changes)
             
-        revenue_avg = sum(revenue_changes) / len(total_months)
-           
+revenue_changes = revenue_changes[1:]    
+# print(revenue_change)
+
 # Print Total Months            
 print("Total Months: " + str(total_months))
 
@@ -74,7 +76,7 @@ print("Total Months: " + str(total_months))
 print("Total Revenue: " + "$" + str(total_revenue))
 
 # Print Average Change
-print("Average Change: " + "$" + str(round(sum(revenue_changes) / len(total_months),2)))
+print("Average Change: " + "$" + str(round(sum(revenue_changes) / (total_months-1),2)))
 
 # Print Greatest increase:
 print("Greatest Increase: " + str(greatest_increase[0]) + " ($" +  str(greatest_increase[1]) + ")") 
