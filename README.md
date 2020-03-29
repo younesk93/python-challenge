@@ -12,8 +12,6 @@
 
 ## PyBank
 
-![Revenue](Images/revenue-per-lead.png)
-
 * In this challenge, you are tasked with creating a Python script for analyzing the financial records of your company. You will give a set of financial data called [budget_data.csv](PyBank/Resources/budget_data.csv). The dataset is composed of two columns: `Date` and `Profit/Losses`. (Thankfully, your company has rather lax standards for accounting so the records are simple.)
 
 * Your task is to create a Python script that analyzes the records to calculate each of the following:
@@ -43,8 +41,6 @@
 * In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
 ## PyPoll
-
-![Vote-Counting](Images/Vote_counting.png)
 
 * In this challenge, you are tasked with helping a small, rural town modernize its vote-counting process. (Up until now, Uncle Cleetus had been trustfully tallying them one-by-one, but unfortunately, his concentration isn't what it used to be.)
 
