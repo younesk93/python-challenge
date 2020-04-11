@@ -1,20 +1,20 @@
-# Unit 3 | Py Me Up, Charlie
+# Py Me Up, Charlie
 
-### Before You Begin
+### 
 
-1. Create a new GitHub repo called `python-challenge`. Then, clone it to your computer.
+1. Creating a new GitHub repo called `python-challenge`. Then, clone it to computer.
 
-2. Inside your local git repository, create a directory for both of the  Python Challenges. Use folder names corresponding to the challenges: **PyBank** and  **PyPoll**.
+2. Inside local git repository, create a directory for both of the  Python Challenges. Using folder names corresponding to the challenges: **PyBank** and  **PyPoll**.
 
-3. Inside of each folder that you just created, add a new file called `main.py`. This will be the main script to run for each analysis.
+3. Inside of each folder that just created, I added a new file called `main.py`. This is the main script to run for each analysis.
 
-4. Push the above changes to GitHub.
+4. Pushing the changes to GitHub.
 
 ## PyBank
 
-* In this challenge, you are tasked with creating a Python script for analyzing the financial records of your company. You will give a set of financial data called [budget_data.csv](PyBank/Resources/budget_data.csv). The dataset is composed of two columns: `Date` and `Profit/Losses`. (Thankfully, your company has rather lax standards for accounting so the records are simple.)
+* Creating a Python script for analyzing the financial records of the company. using a set of financial data called [budget_data.csv](PyBank/Resources/budget_data.csv). The dataset is composed of two columns: `Date` and `Profit/Losses`. 
 
-* Your task is to create a Python script that analyzes the records to calculate each of the following:
+* Creating a Python script that analyzes the records to calculate each of the following:
 
   * The total number of months included in the dataset
 
@@ -26,7 +26,7 @@
 
   * The greatest decrease in losses (date and amount) over the entire period
 
-* As an example, your analysis should look similar to the one below:
+* As an example, analysis will look similar to the one below:
 
   ```text
   Financial Analysis
@@ -38,13 +38,13 @@
   Greatest Decrease in Profits: Sep-2013 ($-2196167)
   ```
 
-* In addition, your final script should both print the analysis to the terminal and export a text file with the results.
+* In addition, the final script should both print the analysis to the terminal and export a text file with the results.
 
 ## PyPoll
 
-* In this challenge, you are tasked with helping a small, rural town modernize its vote-counting process. (Up until now, Uncle Cleetus had been trustfully tallying them one-by-one, but unfortunately, his concentration isn't what it used to be.)
+* In this challenge is about helping a small, rural town modernize its vote-counting process. (Up until now, Uncle Cleetus had been trustfully tallying them one-by-one, but unfortunately, his concentration isn't what it used to be.)
 
-* You will be give a set of poll data called [election_data.csv](PyPoll/Resources/election_data.csv). The dataset is composed of three columns: `Voter ID`, `County`, and `Candidate`. Your task is to create a Python script that analyzes the votes and calculates each of the following:
+* Using a set of poll data called [election_data.csv](PyPoll/Resources/election_data.csv). The dataset is composed of three columns: `Voter ID`, `County`, and `Candidate`. Your task is to create a Python script that analyzes the votes and calculates each of the following:
 
   * The total number of votes cast
 
@@ -71,5 +71,3 @@
   Winner: Khan
   -------------------------
   ```
-
-* In addition, your final script should both print the analysis to the terminal and export a text file with the results.
